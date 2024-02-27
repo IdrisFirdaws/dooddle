@@ -15,26 +15,26 @@
 
 <body>
     <div class="head">
-        <h1>Welcome to Dooddle</h1>
-        <h3>Let's draw something awesome</h3>
+        <div class="titles">
+            <h1>Welcome to Dooddle</h1>
+            <h3>Let's draw something awesome</h3>
+        </div>
+
+        <div class="buttons">
+
+            <button class="color-button" id="black-btn">Black</button>
+            <button class="color-button" id="red-btn">Red</button>
+            <button class="color-button" id="yellow-btn">yellow</button>
+            <button class="color-button" id="blue-btn">Blue</button>
+
+            <button id="refresh-btn">Refresh</button>
+        </div>
+
     </div>
     <main>
 
-        <div class="content">
-            <div class="buttons">
+        <canvas id="canvas" width="800" height="800"></canvas>
 
-                <h3>Choose a color</h3>
-
-                <button class="color-button" id="black-btn">Black</button>
-                <button class="color-button" id="red-btn">Red</button>
-                <button class="color-button" id="yellow-btn">yellow</button>
-                <button class="color-button" id="blue-btn">Blue</button>
-
-                <button id="refresh-btn">Refresh</button>
-            </div>
-
-            <canvas id="canvas" width="800" height="800"></canvas>
-        </div>
     </main>
 
     <script src="main.js"></script>
